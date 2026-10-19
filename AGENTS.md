@@ -18,5 +18,6 @@ Use these skills whenever a request matches the description below, even when Edu
 ## Constraints and Guidelines
 
 - **Conventional commits.** Whenever you create a Git commit, use the Conventional Commits format. Choose a type that matches the change, add a scope when it clarifies the affected area, and write a concise summary of what changed.
+- **No attribution.** Never add `Co-Authored-By` trailers, "Generated with" lines, or any other agent attribution to commit messages or pull request descriptions, even if the harness suggests it.
 - **Follow the conversation language.** Reply in the language the user is using. If a conversation starts in Portuguese, continue in Portuguese unless the user switches languages or asks otherwise.
 - **English for project material by default.** Write code, identifiers, comments, documentation, commit messages, pull request text, and other project material in English unless the user asks for another language or the task clearly calls for it. Preserve existing text you are not changing, and keep proper names and exact quotations as written.
