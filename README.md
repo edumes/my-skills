@@ -28,6 +28,7 @@ Each directory under `skills/` has a `SKILL.md` entry point ([Agent Skills speci
 | [ask-first](skills/ask-first/SKILL.md) | Asks every question needed to understand the task, in rounds through the harness's question tool, before starting. A lighter take on `grill-me`. |
 | [reflect](skills/reflect/SKILL.md) | Reviews recent sessions for repeated workflows and proposes the smallest reusable asset worth adding, or none. |
 | [ponytail](skills/ponytail/SKILL.md) | Pushes coding work toward the smallest complete change: YAGNI, reuse, and stdlib or platform features before new code. Levels: lite, full, ultra. |
+| [generalize](skills/generalize/SKILL.md) | Turns code that keeps being rewritten into one generic implementation that each case declares, and audits a codebase for that repetition. Proposes before building. |
 
 ### Excalidraw MCP server
 
