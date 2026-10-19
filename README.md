@@ -29,6 +29,7 @@ Each directory under `skills/` has a `SKILL.md` entry point ([Agent Skills speci
 | [reflect](skills/reflect/SKILL.md) | Reviews recent sessions for repeated workflows and proposes the smallest reusable asset worth adding, or none. |
 | [ponytail](skills/ponytail/SKILL.md) | Pushes coding work toward the smallest complete change: YAGNI, reuse, and stdlib or platform features before new code. Levels: lite, full, ultra. |
 | [generalize](skills/generalize/SKILL.md) | Turns code that keeps being rewritten into one generic implementation that each case declares, and audits a codebase for that repetition. Proposes before building. |
+| [test-app](skills/test-app/SKILL.md) | Tests a project's app through its real UI, with Playwright for browser targets and Computer Use for native desktop apps, reports results with evidence, and offers to turn the passing flows into Playwright tests. |
 
 ### Excalidraw MCP server
 
@@ -40,6 +41,10 @@ codex mcp add excalidraw -- npx -y mcp-excalidraw-server
 ```
 
 The server auto-starts the canvas at <http://127.0.0.1:3000>; open it to watch the agent draw.
+
+### test-app tools
+
+The `test-app` skill runs Playwright through [`playwright-cli`](https://www.npmjs.com/package/@playwright/cli), falling back to `npx -y @playwright/cli@latest`, so it only needs Node. Computer Use comes from the agent: the Computer Use plugin in Codex, and computer use through the Claude desktop app in Claude.
 
 ### Codex question tool
 
