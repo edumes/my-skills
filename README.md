@@ -26,6 +26,7 @@ Each directory under `skills/` has a `SKILL.md` entry point ([Agent Skills speci
 | [humanizer](skills/humanizer/SKILL.md) | Revises prose that sounds generated while preserving its facts and intended voice. |
 | [excalidraw](skills/excalidraw/SKILL.md) | Guides diagram design and uses the local Excalidraw MCP server to create and render diagrams. |
 | [ask-first](skills/ask-first/SKILL.md) | Asks every question needed to understand the task, in rounds through the harness's question tool, before starting. A lighter take on `grill-me`. |
+| [reflect](skills/reflect/SKILL.md) | Reviews recent sessions for repeated workflows and proposes the smallest reusable asset worth adding, or none. |
 
 ### Excalidraw MCP server
 
@@ -56,6 +57,7 @@ Third-party skills are local copies. Upstream changes come in only after I revie
 | simplify-code | [akitaonrails/my-skills](https://github.com/akitaonrails/my-skills/tree/master/simplify), adapted from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/tree/main/skills/code-simplification) | `7b8a5e5` | Renamed from `simplify`; dropped `README.md` and `codemap.md`; added Addy's MIT license; removed the repo-specific "Guidance for This Repository" section. |
 | humanizer | [blader/humanizer](https://github.com/blader/humanizer) | `8c307f3` | None (kept `SKILL.md`, `LICENSE`, `agents/openai.yaml`). |
 | excalidraw | [coleam00/excalidraw-diagram-skill](https://github.com/coleam00/excalidraw-diagram-skill), adapted for the [yctimlin/mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) tools | n/a | Rewritten around the MCP tools. |
+| reflect | [akitaonrails/my-skills](https://github.com/akitaonrails/my-skills/tree/master/reflect) | `7b8a5e5` | Replaced OpenCode and oh-my-opencode-slim references with Claude Code and Codex equivalents (instruction files, transcripts, hooks, restart note). |
 
 To update a skill: clone its source, diff it against `skills/<name>`, apply what I want to keep, and update the commit in this table.
 
