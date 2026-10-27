@@ -10,7 +10,7 @@ Use these skills whenever a request matches the description below, even when Edu
 
 | Skill | Use when | Reference |
 |---|---|---|
-| `/style` | Writing, changing, reviewing, or refactoring code. Apply Kent Beck's simple design and incremental improvement principles throughout the work. | [kent-beck-style](https://github.com/nathankim0/clean-architecture-skills/tree/main/plugins/kent-beck-style/skills/kent-beck-style) |
+| `/style` | Writing, changing, reviewing, or refactoring code. Apply Kent Beck's Tidy First: keep structure changes apart from behavior changes, and tidy only where it makes the current change easier. | [edumes/my-skills](https://github.com/edumes/my-skills/tree/main/skills/style) |
 | `/simplify-code` | Asked to simplify code, or when recently changed code has avoidable complexity. Preserve behavior and stay within the task's scope. | [akitaonrails/my-skills](https://github.com/akitaonrails/my-skills/tree/master/simplify) |
 | `/humanizer` | Asked to draft, rewrite, or polish blog posts, social posts, essays, or personal messages that should sound like the writer. Apply it as a final editing pass while preserving facts and the requested voice. | [blader/humanizer](https://github.com/blader/humanizer) |
 | `/ponytail` | Writing, fixing, refactoring, or reviewing code, and choosing dependencies. Make the smallest change that fully solves the task, and default to the `full` level. | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail/tree/main/skills/ponytail) |

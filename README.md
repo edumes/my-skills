@@ -21,7 +21,7 @@ Each directory under `skills/` has a `SKILL.md` entry point ([Agent Skills speci
 
 | Skill | What it does |
 |---|---|
-| [style](skills/style/SKILL.md) | Applies Kent Beck's simple design principles while writing, reviewing, or refactoring code. |
+| [style](skills/style/SKILL.md) | Applies Kent Beck's Tidy First while writing, reviewing, or refactoring code: structure changes stay apart from behavior changes, and tidying happens only where it makes the current change easier. |
 | [simplify-code](skills/simplify-code/SKILL.md) | Makes working code easier to read without changing its behavior. Renamed to avoid clashing with Claude Code's built-in `/simplify`. |
 | [humanizer](skills/humanizer/SKILL.md) | Revises prose that sounds generated while preserving its facts and intended voice. |
 | [excalidraw](skills/excalidraw/SKILL.md) | Guides diagram design and uses the local Excalidraw MCP server to create and render diagrams. |
@@ -60,7 +60,6 @@ Third-party skills are local copies. Upstream changes come in only after I revie
 
 | Skill | Source | Synced at | Local changes |
 |---|---|---|---|
-| style | [nathankim0/clean-architecture-skills](https://github.com/nathankim0/clean-architecture-skills/tree/main/plugins/kent-beck-style/skills/kent-beck-style) | `7359eb1` | Renamed from `kent-beck-style`; scope widened to writing code. |
 | simplify-code | [akitaonrails/my-skills](https://github.com/akitaonrails/my-skills/tree/master/simplify), adapted from [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/tree/main/skills/code-simplification) | `7b8a5e5` | Renamed from `simplify`; dropped `README.md` and `codemap.md`; added Addy's MIT license; removed the repo-specific "Guidance for This Repository" section. |
 | humanizer | [blader/humanizer](https://github.com/blader/humanizer) | `8c307f3` | None (kept `SKILL.md`, `LICENSE`, `agents/openai.yaml`). |
 | excalidraw | [coleam00/excalidraw-diagram-skill](https://github.com/coleam00/excalidraw-diagram-skill), adapted for the [yctimlin/mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) tools | n/a | Rewritten around the MCP tools. |
